@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Programming Quize</string>
+    <string name="p_txt">برمجة</string>
+    <string name="d_txt">قواعد بيانات</string>
+    <string name="n_txt">شبكات</string>
+
+    <string name="radio_male">ذكر</string>
+    <string name="radio_female">أنثى</string>
+
+
+    <string name="start_txt">إبدأ</string>
+
+    <string name="pq1_txt">تعد لغة السي كائنية التوجه</string>
+    <string name="pq2_txt">لا يوجد فرق بين final و constant</string>
+    <string name="pq3_txt">المتغيرات هي مواقع على الذاكرة</string>
+    <string name="pq4_txt">المصفوفة حجمها ثابت</string>
+    <string name="pq5_txt">لا يمكن تعريف دالة داخل دالة أخرى</string>
+    <string name="pq6_txt">الكلمة الأساسية المستخدمة لنقل التحكم من وظيفة إلى وظيفة الاستدعاء هي return</string>
+    <string name="pq7_txt">لا يمكن أن ترجع الدالات أكثر من قيمة في وقت واحد</string>
+    <string name="pq8_txt">إذا لم يتم تحديد نوع الإرجاع للدالة ، فسيتم تعيين القيمة الافتراضية لـ int</string>
+    <string name="pq9_txt">يمكن استدعاء الدوال إما بالقيمة أو المرجع</string>
+
+    <string name="dq1_txt">يعد الامر create من اوامر ال dml</string>
+    <string name="dq2_txt">لا يوجد فرق بين الامرين alter و update</string>
+    <string name="dq3_txt">من فوائد العلاقات بين الجداول كمولية البيانات</string>
+    <string name="dq4_txt">وظيفة الامر select البحث عن بيانات</string>
+    <string name="dq5_txt">تحتوي قاعدة البيانات على بيانات وعلاقات</string>
+    <string name="dq6_txt">عائلة معايير XML مهمة جدًا في معالجة قواعد البيانات اليوم.</string>
+    <string name="dq7_txt">تحتوي قاعدة البيانات على قدرة مضمنة لإنشاء ومعالجة وإدارة نفسها.</string>
+    <string name="dq8_txt">قد يعتمد تصميم قاعدة البيانات على البيانات الموجودة</string>
+    <string name="dq9_txt">نادراً ما تكون تطبيقات قواعد البيانات مخصصة للاستخدام من قبل مستخدم واحد.</string>
+
+
+    <string name="nq1_txt">لا يوجد  فرق بين الراوتر والسويتش</string>
+    <string name="nq2_txt">فائدة ال VLAN هي تقسيم ال broadcast domain الواحد غلى عدة domains</string>
+    <string name="nq3_txt">لا يمكن  عمل NAT من private IP address إلى private IP address</string>
+    <string name="nq4_txt">يعود الفرق بين ال LAN و WAN الى السرعة</string>
+    <string name="nq5_txt">أبسط أشكال الشبكة هو شبكة client/server.</string>
+    <string name="nq6_txt">تساعد المعايير في تصميم الشبكات.</string>
+    <string name="nq7_txt">ليست كل بروتوكولات طبقة النقل معنية بالموثوقية.</string>
+    <string name="nq8_txt">Ethernet هو مثال لنظام النطاق الأساسي الموجود على العديد من شبكات LAN.</string>
+    <string name="nq9_txt">تنسيق جداول ARP هو نفسه من نظام تشغيل إلى آخر.</string>
+
+    <string name="score_tv">النتيجة : 0</string>
+    <string name="right_answer_tv">     عدد الإجابات الصحيحة : 0 </string>
+    <string name="wrong_answer_tv">     عدد الإجابات الخاطئة : 0</string>
+    <string name="ta_btn">إجابة صحيحة</string>
+    <string name="fa_btn"> اجابة خاطئة</string>
+    <string name="t_res"> رائع اجابة صحيحة</string>
+    <string name="f_res"> للأسف اجابة خاطئة</string>
+    <string name="sheating_txt">الحصول على مساعدة</string>
+</resources>

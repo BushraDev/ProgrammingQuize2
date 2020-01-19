@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingTop="40dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/ic_launcher_background"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+
+                />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="User Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:id="@+id/grade_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score_tv"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t_ans_tv"
+                    android:drawableStart="@drawable/right"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorAccent"
+                    android:text="@string/right_answer_tv"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f_ans_tv"
+                    android:drawableRight="@drawable/wrong"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorAccent"
+                    android:text="@string/wrong_answer_tv"
+                    />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_tv"
+            android:text="Question"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <Button
+                android:id="@+id/t_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ta_btn"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:shadowColor="@android:color/white"
+                android:shadowRadius="8"
+                android:layout_margin="8dp"
+                android:padding="8dp"/>
+
+            <Button
+                android:id="@+id/f_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fa_btn"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:shadowColor="@android:color/white"
+                android:shadowRadius="8"
+                android:layout_margin="8dp"
+                android:padding="8dp"/>
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/sheating_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sheating_txt"
+            android:background="@color/colorPrimary"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:shadowColor="@android:color/white"
+            android:shadowRadius="8"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
